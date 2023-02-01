@@ -7,14 +7,6 @@
 	    <meta name="author" content="" />
         <title> This is a title </title>
         <link href="images/p1.png" rel="icon" />
-        <script>
-            window.addEventListener('load', function () {
-                let time = window.performance.timing,
-                    complete = time.domComplete - time.domLoading;
-                document.getElementById('page-load-info').innerHTML = `<strong>Page Loaded in ${parseInt(complete)}ms
-                 on ${new Date().toLocaleString("en-US")}</strong>`;
-            });
-        </script>
     </head>
 
     <body>
