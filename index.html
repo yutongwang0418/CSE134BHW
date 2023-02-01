@@ -1,10 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8" />
+	    <meta name="description" content="Simple demo Web page for CSE 134B" />
+	    <meta name="keywords" content="HTML, CSS, JavaScript" />
+	    <meta name="author" content="" />
         <title> This is a title </title>
+        <link href="images/favicon.ico" rel="icon" />
+	    <link href="styles/main.css" rel="stylesheet" />
+        <script>
+            window.addEventListener('load', function () {
+                let time = window.performance.timing,
+                    complete = time.domComplete - time.domLoading;
+                document.getElementById('page-load-info').innerHTML = `<strong>Page Loaded in ${parseInt(complete)}ms
+                 on ${new Date().toLocaleString("en-US")}</strong>`;
+            });
+        </script>
     </head>
 
-    <header>
-        <h1>This is a heading</h1>
-    </header>
+    <body>
+        <header>
+            <h1>This is h1</h1>
+
+            <section id="user-info-component">
+                <div id="user-info" style="display: none;">
+                    <output id="name-info">&nbsp;</output>
+                    <br />
+                    <output id="major-info">&nbsp;</output>
+                    <hr />
+				    <br />
+                </div>
+            </section>
+
+
+        </header>
+        <main>
+            <h2>This is h2</h2>
+            <section class="img">
+                <img src="images/bear.png" alt="Warren Bear" height="430" width="700" />
+            </section>
+        </main>
+
+        <footer>
+            <hr/>
+            <p>This page was made with &hearts; by Yutong Wang</p>
+        </footer>
+    </body>
 </html>
