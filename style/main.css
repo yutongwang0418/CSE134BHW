@@ -6,17 +6,7 @@ a:hover {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 2x;
-    text-align: center;
-}
-
 body {
-    background-color: lightblue;
-}
-
-main {
-
     /* centered vertically and horizontally */
     right: 50%;
     bottom: 50%;
@@ -34,6 +24,8 @@ main {
 
     background-color: #ffffff;
 }
+
+
 
 time {
     font-style: italic;
