@@ -20,10 +20,10 @@ header {
     text-align: center;
     color: #f0181f;
     
-    right: 50%;
+    /* right: 50%;
     bottom: 0%;
     transform: translate(50%,50%);
-    position:absolute
+    position:absolute */
 }
 
 body {
@@ -34,10 +34,10 @@ body {
 
 
     /* centered vertically and horizontally */
-    right: 50%;
+    /* right: 50%;
     bottom: 50%;
     transform: translate(50%,50%);
-    position: absolute;
+    position: absolute; */
 
     padding: 20px;
 
@@ -56,10 +56,10 @@ footer {
     grid-column: 1/4;
     text-align: center;
     
-    right: 50%;
+    /* right: 50%;
     bottom: 70%;
     transform: translate(50%,50%);
-    position:absolute
+    position:absolute */
 }
 
 
