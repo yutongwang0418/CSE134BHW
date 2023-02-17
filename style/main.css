@@ -19,6 +19,8 @@ header {
     grid-column: 1/4;
     text-align: center;
     color: #f0181f;
+
+    font-family: serif;
     
     /* right: 50%;
     bottom: 0%;
@@ -60,6 +62,8 @@ footer {
     bottom: 70%;
     transform: translate(50%,50%);
     position:absolute */
+
+    font-family: cursive;
 }
 
 
