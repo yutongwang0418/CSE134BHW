@@ -41,6 +41,12 @@ body {
     background-color: #ffffff;
 }
 
+footer {
+    padding: 2rem;
+    grid-column: 1/4;
+    text-align: center;
+}
+
 time {
     font-style: italic;
 }
