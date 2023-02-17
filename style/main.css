@@ -68,25 +68,55 @@ time {
 
 p, em, table {
     animation-duration: 3s;
-    animation-name: slidein;
+    animation-name: load1;
+}
+
+.img1 {
+    animation-duration: 6s;
+    animation-name: load2;
 }
   
-@keyframes slidein {
+@keyframes load1 {
+    from {
+        margin-left: 20%;
+        width: 200%;
+    }
+  
+    75% {
+      font-size: 200%;
+      margin-left: 10%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@keyframes load2 {
     from {
         margin-left: 20%;
         width: 200%;
         transform: rotate(0.25turn);
     }
   
-    30% {
-      font-size: 200%;
+    25% {
+      font-size: 150%;
       margin-left: 10%;
       width: 150%;
       transform: rotate(0.25turn);
     }
 
-    60% {
+    50% {
         font-size: 200%;
+        margin-left: 10%;
+        width: 150%;
+        transform: rotate(0.25turn);
+    }
+
+    75% {
+        font-size: 150%;
         margin-left: 10%;
         width: 150%;
         transform: rotate(0.25turn);
@@ -95,6 +125,5 @@ p, em, table {
     to {
       margin-left: 0%;
       width: 100%;
-      transform: rotate(0.25turn);
     }
 }
