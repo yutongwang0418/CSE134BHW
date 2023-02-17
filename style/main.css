@@ -15,10 +15,7 @@ header {
 
 
 body {
-    display: grid;
-    grid-template: auto 1fr auto / auto 1fr auto;
-    height: 100vh;
-    gap: 0.3rem;
+    
 
 
     /* centered vertically and horizontally */
@@ -37,6 +34,13 @@ body {
     border-radius: 12px; */
 
     background-color: #ffffff;
+}
+
+main {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    height: 100vh;
+    gap: 0.3rem;
 }
 
 
