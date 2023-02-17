@@ -8,9 +8,9 @@
     font-family: Sans-Serif;
 }
 
-/* a:hover {
+a:hover {
     text-decoration: none;
-} */
+}
 
 
 header {
@@ -18,6 +18,8 @@ header {
     padding: 2rem;
     grid-column: 1/4;
     text-align: center;
+    color: #f0181f;
+    text-decoration: none;
 }
 
 body {
@@ -60,9 +62,4 @@ time {
 nav {
     display: flex;
     justify-content: space-evenly;
-}
-
-.welcome {
-    color: #f0181f;
-    text-decoration: none;
 }
