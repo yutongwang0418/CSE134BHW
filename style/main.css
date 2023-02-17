@@ -51,6 +51,7 @@ body {
     gap: 0.3rem;
 
     text-align: center;
+    right: auto;
     /* centered vertically and horizontally */
     /* right: 50%;
     bottom: 50%;
