@@ -76,7 +76,7 @@ nav {
     justify-content: space-evenly;
 }
 
-p, a {
+p, a, table {
     animation-duration: 3s;
     animation-name: slidein;
 }
