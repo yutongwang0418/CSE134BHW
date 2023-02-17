@@ -93,7 +93,7 @@ time {
     justify-content: space-evenly;
 } */
 
-p, table {
+p, em, table {
     animation-duration: 3s;
     animation-name: slidein;
 }
