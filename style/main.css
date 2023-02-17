@@ -67,12 +67,12 @@ time {
 }
 
 p, em, table {
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-name: load1;
 }
 
 .img {
-    animation-duration: 3s;
+    animation-duration: 1.5s;
     animation-name: load2;
 }
   
