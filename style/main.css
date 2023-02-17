@@ -75,18 +75,26 @@ p, em, table {
     from {
         margin-left: 20%;
         width: 200%;
-        transform: rotate(0.5turn);
+        transform: rotate(0.25turn);
     }
   
-    75% {
+    30% {
       font-size: 200%;
       margin-left: 10%;
       width: 150%;
+      transform: rotate(0.25turn);
     }
+
+    60% {
+        font-size: 200%;
+        margin-left: 10%;
+        width: 150%;
+        transform: rotate(0.25turn);
+      }
   
     to {
       margin-left: 0%;
       width: 100%;
-      transform: rotate(0.5turn);
+      transform: rotate(0.25turn);
     }
 }
